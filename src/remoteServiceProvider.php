@@ -8,7 +8,6 @@ use Spatie\remote\Commands\remoteCommand;
 
 class remoteServiceProvider extends PackageServiceProvider
 {
-
     public function boot()
     {
         // نشر ملف التكوين
@@ -16,7 +15,7 @@ class remoteServiceProvider extends PackageServiceProvider
             __DIR__.'/../config/remote.php' => config_path('remote.php'),
         ], 'config');
     }
-    
+
     public function configurePackage(Package $package): void
     {
         /*
