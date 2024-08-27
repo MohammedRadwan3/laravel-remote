@@ -2,5 +2,5 @@
 
 // config for Spatie/remote
 return [
-    "hello",
+    'hello',
 ];
